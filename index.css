@@ -1,0 +1,65 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+  font-family: "Courier New", Courier, monospace;
+}
+.product-rating {
+  display: flex;
+  align-items: center;
+}
+
+.item-card {
+  width: 235px;
+  padding: 6px;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  margin: 10px 10px;
+  cursor: pointer;
+}
+.item-card:hover {
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px,
+    rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+}
+
+.product-image {
+  display: flex;
+  justify-content: center;
+  padding-bottom: 18px;
+}
+.product-name {
+  font-size: 18px;
+  padding: 4px 0px;
+}
+
+.product-des {
+  padding: 4px 0px;
+}
+
+.product-price > span {
+  color: crimson;
+}
+
+.product-price > del {
+  margin-left: 4px;
+}
+
+.product-page {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: center;
+  flex-wrap: wrap;
+  padding: 10px;
+  flex-grow: 1;
+}
+
+/* cart page css */
+.cart-card {
+  position: relative;
+}
+.cart-cross-img {
+  width: 20px;
+  position: absolute;
+  top: 10px;
+  right: 30px;
+}
